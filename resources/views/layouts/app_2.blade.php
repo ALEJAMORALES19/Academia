@@ -19,13 +19,7 @@
             <div id="my-nav" class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/cursos/create">Crear curso<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/docentes">Docentes<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/cursos/nosotros">Sobre nosotros<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/docentes/create">Agregar docente<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>

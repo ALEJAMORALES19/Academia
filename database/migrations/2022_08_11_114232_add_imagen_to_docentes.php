@@ -13,14 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('cursos', function (Blueprint $table) {
-            $table->id(); //llave primaria
-            $table->timestamps(); //registra el tiempo de creacionde la tabla
-            $table->string('nombre');
-            $table->string('descripcion');
-            $table->integer('duracion');
-            
-        });
+        //Schema::table('docentes', function (Blueprint $table) {
+            //$table->string('foto')->after('fecha_contrato');
+            //
+       // });
     }
 
     /**
@@ -30,6 +26,8 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('cursos');
+        Schema::table('docentes', function (Blueprint $table) {
+            //
+        });
     }
 };

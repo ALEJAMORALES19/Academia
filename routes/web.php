@@ -6,6 +6,7 @@ use App\Http\Controllers\Micontrolador;
 //Primero se invoca la clase con su ruta
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CursoController;
+use App\Http\Controllers\docenteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +22,8 @@ use App\Http\Controllers\CursoController;
 Route::get('/', function () {
     return view('cursos.bienvenido');
 });
+
+
 
 Route::get('/cursos/nosotros', function () {
     return view('cursos.nosotros');
@@ -54,6 +57,8 @@ Route::get('/precio/{precio}', [ControladorPrecios::class,'valor']);
 Route::get('/iva/{nombre}/{precio}', [ControladorPrecios::class,'getIva']);
 
 Route::resource('cursos', CursoController::class);
+
+Route::resource('docentes', docenteController::class);
 
 
 
