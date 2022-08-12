@@ -13,10 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        //Schema::table('docentes', function (Blueprint $table) {
-            //$table->string('foto')->after('fecha_contrato');
-            //
-       // });
+        Schema::table('docentes', function (Blueprint $table) {
+            $table->string('foto')->after('fecha_contrato');
+
+       });
     }
 
     /**

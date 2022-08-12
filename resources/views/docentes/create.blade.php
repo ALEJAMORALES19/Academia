@@ -1,4 +1,4 @@
-@extends('layouts.app_2')
+@extends('layouts.app')
 
 @section('titulo', 'Añadir Docente')
 
@@ -40,12 +40,12 @@
             <input id="fecha_contrato" class="form-control" type="date" name="fecha_contrato">
         </div>
         <div class="form-group">
-            <label for="foto">Cargue la Foto</label> <br>
-            <input id="foto" type="file" name="foto">
+            <label for="foto">Cargue su Foto</label> <br>
+            <input id="foto" type="file" name="foto" accept="image/*">
         </div>
         <div class="form-group">
             <label for="Doc_Identidad">Cargue su documento de identidad</label><br>
-            <input id="Doc_Identidad"  type="file" name="Doc_Identidad">
+            <input id="Doc_Identidad"  type="file" name="Doc_Identidad" accept="application/pdf">
         </div>
         <button class="btn btn-primary" type="submit">Añadir</button>
 

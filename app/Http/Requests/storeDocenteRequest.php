@@ -27,10 +27,10 @@ class storeDocenteRequest extends FormRequest
             'nombres'=>'required|max:50',
             'apellidos'=>'required|max:40',
             'titulo'=>'required|max:50',
-            'Edad'=>'required|numeric|digits_between:1,70',
-            'fecha_contrato'=>'required',
-            'foto'=>'required|max:60',
-            'Doc_Identidad'=>'max:200','mimes:pdf,docx,doc',
+            'edad'=>'required|size:2',
+            'fecha_contrato'=>'nullable|date',
+            'foto'=>'required|file|max:5120',
+            'Doc_Identidad'=>'required'
         ];
     }
 }
