@@ -21,3 +21,6 @@ es tu puerta de acceso plurilingüe a la educación superior y continuada, ya se
     <p>desde cursos en línea a cursos de verano y cursos intensivos. Con numerosas diferentes funciones para distintos estudiantes, los cursos a veces se usan para enlazar diferentes fases de estudio académico,
     o para demostrar una formación profesional y calificaciones específicas. Hay cursos en una amplia variedad de temas, desde Cosmetología a Ingeniería, dede estudios sobre alimentos y bebidas a Derecho, Biología o Moda.
     Hay mucha variedad de cursos ¡Empieza tu búsqueda!</p>
+
+
+@endsection

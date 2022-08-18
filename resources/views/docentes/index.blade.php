@@ -17,7 +17,7 @@
             <img width="150px" height="200px" src="{{ Storage::url($item->foto)}}" class="card-img-top" alt"..">
             <div class="card-body">
             <h5 class="card-title">{{$item->nombres}} {{$item->apellidos}}</h5>
-            <h6 class="card-text">Titulo Universitario: {{$item->titulo}}</h6>
+            <h6 class="card-text">Titulo Universitario: {{$item->titulo}}</h6><br>
             <a href="/docentes/{{$item->id}}" class="btn btn-primary">Ver Información</a>
             </div>
         </div>

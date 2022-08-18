@@ -11,10 +11,10 @@
     <br>
     <img style="height:200px; width:200px" src="{{ Storage::url($docente->foto )}}" class="card-img-top" alt"..">
     <p class="card-text"> <h6>Nombres y Apellidos: </h6>{{$docente->nombres}}  {{$docente->apellidos}}</p>
-    <p class="card-text">Titulo Universitario: {{$docente->titulo}}</p>
-    <p class="card-text">Edad: {{$docente->edad}}</p>
-    <p class="card-text">Fecha de contrato: {{$docente->fecha_contrato}}</p>
-    <p>Documento de identidad:</p><br>
+    <p class="card-text"><h6>Titulo Universitario: </h6>{{$docente->titulo}}</p>
+    <p class="card-text"><h6>Edad: </h6>{{$docente->edad}}</p>
+    <p class="card-text"><h6>Fecha de contrato: </h6>{{$docente->fecha_contrato}}</p>
+    <h6>Documento de identidad:</h6><br>
     <iframe  width="300" height="300"src="{{Storage::url($docente->Doc_Identidad)}}"> </iframe>
 
     <br><br><br>

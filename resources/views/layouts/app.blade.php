@@ -30,7 +30,7 @@
                 </ul>
             </div>
         </nav>
-        <br><br><br><br><br><br><br>
+        <br><br><br><br>
         <div class="container">
             @yield('contenido')
         </div>
