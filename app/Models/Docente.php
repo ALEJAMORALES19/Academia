@@ -11,3 +11,4 @@ class Docente extends Model
      protected $fillable = ['nombres', 'apellidos', 'titulo', 'edad', 'fecha_contrato', 'foto', 'Doc_Identidad'];
      use HasFactory;
 }
+
